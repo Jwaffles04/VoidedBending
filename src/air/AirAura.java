@@ -25,7 +25,7 @@ public class AirAura extends BaseAbility {
 	    //thingie effect
 	    for (Entity entity : player.getNearbyEntities(5, 5, 5)) {
 	      if (entity instanceof LivingEntity && !entity.equals(player)) {
-	        // Pushes Entity.
+	        // Pushes Entity. Doesn't do anything 
 	        entity.setVelocity(null);
 	      }
 	    }
